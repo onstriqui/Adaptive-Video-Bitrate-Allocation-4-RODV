@@ -1,5 +1,9 @@
 # Adaptive Video Bitrate Allocation for RODV
 
+## By:
+- [Ons Triqui](mailto:ons.triqui@gmail.com)
+- [Eman Sarah Afi](mailto:emansarahafi@gmail.com)
+
 ## Overview
 
 This project presents a framework for adaptive video bitrate allocation in teleoperated vehicles. The framework is designed to optimize the video quality while considering the available bandwidth and the importance of different camera views. The system dynamically adjusts video resolution and bitrate based on the spatiotemporal complexity of the video content and the criticality of detected objects, ensuring efficient and effective video transmission for teleoperation.
