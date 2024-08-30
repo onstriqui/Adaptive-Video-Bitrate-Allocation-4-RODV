@@ -4,20 +4,20 @@
 - [Ons Triqui](mailto:ons.triqui@gmail.com)
 - [Eman Sarah Afi](mailto:emansarahafi@gmail.com)
 
-## Overview
+## Overview:
 
 This project presents a framework for adaptive video bitrate allocation in teleoperated vehicles. The framework is designed to optimize the video quality while considering the available bandwidth and the importance of different camera views. The system dynamically adjusts video resolution and bitrate based on the spatiotemporal complexity of the video content and the criticality of detected objects, ensuring efficient and effective video transmission for teleoperation.
 
-## Proposed Solution
+## Proposed Solution:
 
 The solution comprises two main chains:
 
-1. **Video Processing Chain**
-2. **Object Detection Chain**
+1. **Video Processing Chain.**
+2. **Object Detection Chain.**
 
 ![RODV Group Presentation Report Progress 1608](https://github.com/user-attachments/assets/9ce65be4-3357-420c-a40d-ec6eba9e4c0e)
 
-### Video Processing Chain
+### Video Processing Chain:
 
 1. **Input Video Segment:** The input video is processed in segments to enable real-time adaptation.
 
@@ -31,7 +31,7 @@ The solution comprises two main chains:
 
 6. **cVBR Encoder:** The constant Variable Bitrate (cVBR) encoder encodes the video using the selected resolution, QP, and bitrate to optimize video transmission.
 
-### Object Detection Chain
+### Object Detection Chain:
 
 1. **Sensor Data:** Sensor data from multiple cameras is fed into the object detection module.
 
@@ -41,15 +41,15 @@ The solution comprises two main chains:
 
 4. **Acceptable Bitrates Estimation:** Using the camera reference and importance weights, the system estimates acceptable bitrates for each camera view to ensure critical information is transmitted with higher quality.
 
-### Integration with Available Bandwidth Prediction
+### Integration with Available Bandwidth Prediction:
 
 - The system integrates with a bandwidth prediction model to ensure that the allocated bitrates are within the available bandwidth, allowing for real-time adjustments and preventing video quality degradation or buffering.
 
-## Components
+## Components:
 
 - **Input:** Video segments and sensor data from multiple cameras.
 - **Output:** Optimally encoded video stream for teleoperation, with dynamically allocated bitrates based on object importance and available bandwidth.
 
-## Inspiration
+## Inspiration:
 
 This framework is inspired by the Quality-Aware Dynamic Resolution Adaptation Framework for Adaptive Video Streaming, which emphasizes efficient video transmission by dynamically adjusting resolution and bitrate based on content complexity and network conditions. The original paper can be accessed [here](https://doi.org/10.1145/3625468.3652172).
