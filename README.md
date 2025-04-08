@@ -29,6 +29,7 @@ pages="344--360",
 abstract="Establishing a stable and efficient connection between operators and remotely operated vehicles (ROVs) is essential for successful missions in challenging environments. Real-time video transmission is particularly critical, providing operators with visual feedback to navigate and control the vehicle effectively. This study aims to improve video transmission quality in a multi-camera ROV equipped with six cameras and various sensors. Our focus is to enhance the Quality-Aware Dynamic Rate Allocation (QADRA) system, which optimizes video quality by dynamically adjusting codec parameters like resolution and quantization parameters (QPs) based on expected peak signal-to-noise ratio (XPSNR) predictions. This enhancement addresses the unique challenges of achieving balanced video quality across multiple video streams.",
 isbn="978-3-031-86370-7"
 }
+```
 
 ## Overview:
 
